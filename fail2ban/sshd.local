@@ -1,0 +1,7 @@
+[sshd]
+enabled = true
+port = ssh
+#action = action_mwl
+logpath = %(sshd_log)s
+maxretry = 3
+bantime = 86400
