@@ -8,11 +8,11 @@ The environment is composed by 3 VM's:
 
 - RedHat01: 
 
-This VM has [ansible](https://www.ansible.com/) installed on it and contains ansible role files and playbook for deploy and configure docker on RedHat02 and Ubuntu01 VM's. The ansible role also deploys a docker container called "simple-web-server" wich is precisely that, a simple web server listening on port 80 that outputs some client information.
+This VM has [ansible](https://www.ansible.com/) installed and contains ansible role files and playbook for deploy and configure docker on RedHat02 and Ubuntu01 VM's. The ansible role also deploys a docker container called "simple-web-server" wich is a simple web server listening on port 80 that outputs some client information.
 
 In the home user directory there are two bash scripts:
- - lstusr.sh: lists all system users and if they're logged on
- - ports.sh: lists all proceses that listens on a TCP port and the port number.
+ - lstusr.sh: lists all system users and if they're logged in
+ - ports.sh: lists all processes that listen on a TCP port and the port number.
 
 - RedHat02: This VM has docker installed and runs the container simple-web-server.
 
@@ -47,7 +47,7 @@ ubuntu01.tf: "Ubuntu01" VM definition and post-install scripts
 
 1- Install Terraform and make sure you have Terraform install dir on your PATH.
 
-2- Git clone locally this repository on your computer on an empty directory.
+2- Clone or download this repository on your computer.
 
 3- Edit "provider.tf" and write your AWS access_key, secret_key and region values.
 
