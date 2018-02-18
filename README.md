@@ -53,4 +53,4 @@ ubuntu01.tf: "Ubuntu01" VM definition and post-install scripts
 
 4- From your local directory run "terraform init" command to initialize the project and then run "terraform apply".
 
-The whole process takes about 8 mins to complete.
+The whole process takes about 8 mins to complete. Then you will have 3 VM's on your AWS account (instances) accessible via ssh using user "ec2-user" (no password) and the private key on "keys" directory. "RedHat02" and "Ubuntu01" machines will be also accessible via HTTP.
