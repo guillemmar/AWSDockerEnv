@@ -26,7 +26,7 @@ Contains the file "sshd.local" in order to configure fail2ban on RedHat VM's
 
 - directory "keys": 
 
-Contains "id-rsa" and "id_rsa.pub" files. Those are the public and private key for the 3 VM's.
+Contains "id-rsa" and "id_rsa.pub" files. Those are the public and private key for the 3 VM's. I provide these two files in order to fully automate the process but, due to the critical nature of a key pair, I strongly recomend that you generate your own key pair. An easy way to do that is with [Open-ssh](https://www.openssh.com/).
 
 - directory "files": 
 
