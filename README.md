@@ -45,9 +45,12 @@ ubuntu01.tf: "Ubuntu01" VM definition and post-install scripts
 
 ## Usage:
 
-1- Install Terraform and mek sure you have Terraform install dir on your PATH.
+1- Install Terraform and make sure you have Terraform install dir on your PATH.
+
 2- Git clone locally this repository on your computer on an empty directory.
+
 3- Edit "provider.tf" and write your AWS access_key, secret_key and region values.
+
 4- From your local directory run "terraform init" command to initialize the project and then run "terraform apply".
 
 The whole process takes about 8 mins to complete.
